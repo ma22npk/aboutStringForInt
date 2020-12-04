@@ -15,10 +15,10 @@ public class Main {
         int[] intArray = Stream.of(stringArray).mapToInt(Integer::parseInt).toArray();
 
 //【START】配列の中身を全部出力する ==============
-//        for (int i = 0; i < intArray.length; i++) {
-//            int j = intArray[i];
-//            System.out.println(j);
-//        }
+        for (int i = 0; i < intArray.length; i++) {
+            int j = intArray[i];
+            System.out.println(j);
+        }
 //【 END 】配列の中身を全部出力する ==============
 
 // 【START】配列内の値をすべて足す =============

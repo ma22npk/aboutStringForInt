@@ -1,0 +1,2 @@
+# aboutStringForInt
+文字列の配列をIntに変換する操作の勉強
